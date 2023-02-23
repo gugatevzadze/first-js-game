@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+/* general styling */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P", cursive;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+/* body */
+body {
+  background-color: #1a2022;
+  color: #eee;
+}
+/* header */
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-top: 2rem;
+}
+.head > h1 {
+  font-size: 4.5rem;
+}
+.head > h2 {
+  font-size: 3rem;
+}
+.number {
+  background-color: #eee;
+  color: #1a2022;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 10rem;
+}
+/* main */
+main {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* left section of main */
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.left {
+  gap: 2rem;
+  font-size: 3rem;
+}
+.guess {
+  width: 25rem;
+  height: 10rem;
+  background: none;
+  color: inherit;
+  border: 5px solid #eee;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/* right section of main */
+.right > p {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+.message {
+  padding-bottom: 3rem;
+}
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* btn styling */
+.btn {
+  font-size: 2rem;
+  width: 17rem;
+  height: 6rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: #1a2022;
+}
+.btn:hover {
+  background-color: #a2a3a3;
+}
